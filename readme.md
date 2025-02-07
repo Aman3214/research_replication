@@ -1,48 +1,48 @@
-# 🚀 NeRF Replication Project
+# NeRF Replication Project
 
 This repository contains the **NeRF (Neural Radiance Fields)** model replication based on the original research paper. The implementation combines insights from the paper and additional guidance from online resources, including YouTube tutorials.
 
-## 📂 File Structure
+##  File Structure
 
-### 1️⃣ nerf/
+### 1️ nerf/
 
-- 📌 Contains the **vanilla NeRF implementation** replicated from the research paper.
-- 🏋️‍♂️ Includes the **training code** used for learning scene representations.
-- 💾 Stores the **weights** from the last training epoch for model evaluation.
+-  Contains the **vanilla NeRF implementation** replicated from the research paper.
+-  Includes the **training code** used for learning scene representations.
+-  Stores the **weights** from the last training epoch for model evaluation.
 
-### 2️⃣ novel_view/
+### 2️ novel_view/
 
-- 🎥 Contains **generated novel views** from the **synthetic LEGO dataset**.
-- 🗂️ The novel views are stored as **pickle files**:
-  - 🏗️ `training.pkl` – Contains novel views used during training.
-  - 🧪 `testing.pkl` – Contains novel views used for evaluation.
+-  Contains **generated novel views** from the **synthetic LEGO dataset**.
+-  The novel views are stored as **pickle files**:
+  -  `training.pkl` – Contains novel views used during training.
+  -  `testing.pkl` – Contains novel views used for evaluation.
 
 ### 3️⃣ requirements.txt
 
-- 📜 Lists all **additional dependencies** that must be installed before running the code.
-- ⚙️ Install dependencies using:
+-  Lists all **additional dependencies** that must be installed before running the code.
+-  Install dependencies using:
   ```bash
   pip install -r requirements.txt
   ```
 
-## 🚀 Getting Started
+##  Getting Started
 
-1️⃣ **Clone the repository**:
+1️ **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/research_replication.git
    cd research_replication
    ```
-2️⃣ **Install dependencies**:
+2️ **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-3️⃣ **Run the training script** (if applicable):
+3️ **Run the training script** (if applicable):
    ```bash
    python nerf/train.py
    ```
-4️⃣ **Generate novel views** using the trained model.
+4️ **Generate novel views** using the trained model.
 
-## 📜 References
+##  References
 
-- 📖 **Original NeRF Paper:** [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934)
+-  **Original NeRF Paper:** [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934)
 
